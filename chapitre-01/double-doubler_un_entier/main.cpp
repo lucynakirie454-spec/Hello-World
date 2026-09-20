@@ -1,11 +1,9 @@
-#include <cstdio>
-int main(){
-     
-    int nombre;
-    printf("entrer un nombre : ");
-     scanf("%d",&nombre);
-     printf("le double est: %d\n",nombre*2);
 
-      return 0;
+#include <cstdio.h>
 
-}
+int main(void) {
+    int x;
+    if (scanf("%d", &x) == 1) 
+        printf("%d\n", 2 * x);
+    
+    return 0;}
